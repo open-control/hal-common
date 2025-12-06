@@ -1,12 +1,13 @@
 #pragma once
 
 #include <oc/common/Types.hpp>
+#include <oc/hal/Types.hpp>
 
 namespace oc::common {
 
 struct ButtonDef {
     ButtonID id;
-    GpioPin pin;
+    hal::GpioPin pin;
     bool activeLow = true;
 };
 
