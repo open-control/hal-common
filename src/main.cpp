@@ -2,6 +2,8 @@
  * @file main.cpp
  * @brief Compilation test for driver-common
  */
+#include <Arduino.h>
+
 #include <oc/common/Types.hpp>
 #include <oc/common/ButtonDef.hpp>
 #include <oc/common/EncoderDef.hpp>
