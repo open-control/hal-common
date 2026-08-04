@@ -13,6 +13,6 @@
   "dependencies": {},
   "build": {
     "includeDir": "src",
-    "srcFilter": ["+<**/*.cpp>", "-<main.cpp>"]
+    "srcFilter": ["-<*>"]
   }
 }
